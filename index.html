@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contraloría Estado Nueva Esparta | Transparencia y Control Fiscal</title>
+  <meta name="keywords" content="contraloría, estado nueva esparta, control fiscal, transparencia, gestión pública" />
+  <meta name="description"
+    content="Sitio oficial de la Contraloría del Estado Nueva Esparta. Promoviendo la vigilancia y transparencia en la administración pública estadal." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/variable.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/componente.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+
+  <!-- Favicon (link.png) -->
+  <link rel="icon" href="img/link.png" type="image/png" />
+</head>
+
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-content animate-fadeInUp">
+        <h1 class="hero-title">
+          Contraloría del Estado Nueva Esparta
+          <span class="hero-gradient-text">Vigilancia y Transparencia para el Pueblo Neoespartano</span>
+        </h1>
+
+        <!-- Hero Navigation Cards -->
+        <nav class="hero-nav-cards" aria-label="Navegación principal">
+          <button class="nav-card" onclick="scrollToSection('quienes-somos')" type="button">
+            <div class="nav-card-icon"><i class="fas fa-users" aria-hidden="true"></i></div>
+            <span>Quiénes Somos</span>
+          </button>
+          <button class="nav-card" onclick="scrollToSection('donde-estamos')" type="button">
+            <div class="nav-card-icon"><i class="fas fa-map-marker-alt" aria-hidden="true"></i></div>
+            <span>Dónde Estamos</span>
+          </button>
+          <button class="nav-card" onclick="scrollToSection('contacto')" type="button">
+            <div class="nav-card-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+            <span>Contacto</span>
+          </button>
+        </nav>
+
+        <p class="hero-subtitle">
+          Órgano superior de control fiscal al servicio de la administración pública estadal de Nueva Esparta
+        </p>
+      <a class="hero-button animate-scaleIn" href="#quienes-somos" onclick="scrollToSection('quienes-somos')">
+  Conócenos
+</a>
+
+<!-- Flechas animadas hacia abajo -->
+<div class="scroll-down" onclick="scrollToSection('quienes-somos')" role="button" tabindex="0" aria-label="Ir a Quiénes Somos">
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+  <span class="arrow"></span>
+</div>
+
+      </div>
+    </div>
+
+   
+  </section>
+
+  <!-- Quiénes Somos -->
+
+<!-- Sección Quiénes Somos -->
+<section id="quienes-somos" class="quienes-somos-section container">
+  <h2 class="section-title animate-fadeInDown">Quiénes Somos</h2>
+  <p class="section-subtitle animate-fadeInDown">
+    Órgano superior de control fiscal encargado de velar por la correcta administración de los recursos públicos en el Estado Nueva Esparta.
+  </p>
+
+  <div class="quienes-grid">
+    <!-- Misión -->
+    <div class="flip-card animate-fadeInUp">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="card-icon bg-blue-100 border border-blue-200">
+            <i class="fas fa-bullseye text-blue-600 opacity-80"></i>
+          </div>
+          <h3 class="card-title">Misión</h3>
+          <p class="card-description">Garantizar la transparencia y el buen uso de los recursos públicos.</p>
+        </div>
+        <div class="flip-card-back">
+          <ul class="card-details">
+            <li><span class="text-blue-600 opacity-80">✓</span> Supervisión eficaz y oportuna</li>
+            <li><span class="text-blue-600 opacity-80">✓</span> Promoción de la responsabilidad pública</li>
+            <li><span class="text-blue-600 opacity-80">✓</span> Fomento del desarrollo sostenible</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visión -->
+    <div class="flip-card animate-fadeInUp" style="animation-delay: 0.2s">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="card-icon bg-green-100 border border-green-200">
+            <i class="fas fa-eye text-green-600 opacity-80"></i>
+          </div>
+          <h3 class="card-title">Visión</h3>
+          <p class="card-description">Ser un referente en control fiscal y transparencia en el Estado Nueva Esparta.</p>
+        </div>
+        <div class="flip-card-back">
+          <ul class="card-details">
+            <li><span class="text-green-600 opacity-80">✓</span> Institución eficiente y confiable</li>
+            <li><span class="text-green-600 opacity-80">✓</span> Compromiso con la sociedad</li>
+            <li><span class="text-green-600 opacity-80">✓</span> Innovación y mejora continua</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Valores -->
+    <div class="flip-card animate-fadeInUp" style="animation-delay: 0.4s">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="card-icon bg-purple-100 border border-purple-200">
+            <i class="fas fa-handshake text-purple-600 opacity-80"></i>
+          </div>
+          <h3 class="card-title">Valores</h3>
+          <p class="card-description">Integridad, responsabilidad y compromiso con el ciudadano.</p>
+        </div>
+        <div class="flip-card-back">
+          <ul class="card-details">
+            <li><span class="text-purple-600 opacity-80">✓</span> Transparencia</li>
+            <li><span class="text-purple-600 opacity-80">✓</span> Ética profesional</li>
+            <li><span class="text-purple-600 opacity-80">✓</span> Servicio al ciudadano</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  
+ <!-- Dónde Estamos -->
+<section id="donde-estamos">
+  <h2>Dónde Estamos</h2>
+  <p>Nos encontramos en la Av. Constitución, La Asunción 6311, Nueva Esparta, Venezuela.</p>
+  
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6273.769387212763!2d-63.8621!3d11.0273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1722000000000"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Ubicación Contraloría Nueva Esparta">
+  </iframe>
+
+  <a class="btn-map-link" href="https://maps.app.goo.gl/wzYAHphjzF3WryQe7" target="_blank">
+    Ir a Google Maps
+  </a>
+</section>
+
+<section class="container section-focus" id="enfoque">
+  <div class="hero-text">
+    <h1>¿En qué nos enfocamos?</h1>
+    <p>La Contraloría del Estado Nueva Esparta orienta sus esfuerzos hacia el fortalecimiento de la administración pública mediante la fiscalización y el control de los recursos públicos.</p>
+  </div>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <div class="icon-wrapper icon-audit"></div>
+      <h3>Auditorías</h3>
+      <p>Ejecutamos auditorías a entes públicos para garantizar la transparencia en la gestión gubernamental.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon-wrapper icon-transparency"></div>
+      <h3>Transparencia</h3>
+      <p>Promovemos el acceso a la información pública y la rendición de cuentas ciudadana.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon-wrapper icon-prevention"></div>
+      <h3>Prevención</h3>
+      <p>Diseñamos estrategias para prevenir actos de corrupción en todos los niveles del Estado.</p>
+    </div>
+    <div class="feature-card">
+      <div class="icon-wrapper icon-control"></div>
+      <h3>Control Fiscal</h3>
+      <p>Supervisamos el uso de fondos públicos para asegurar su destino y efectividad.</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Beneficios / Flip Cards -->
+  <section id="beneficios" class="benefits-section container">
+    <h2 class="section-title animate-fadeInDown">Nuestros Valores y Beneficios</h2>
+    <p class="section-subtitle animate-fadeInDown">Comprometidos con la transparencia, eficiencia y servicio al ciudadano.</p>
+
+    <div class="benefits-grid">
+      <!-- Beneficio 1 -->
+      <div class="flip-card animate-fadeInUp">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-icon bg-blue-100 border border-blue-200">
+              <i class="fas fa-balance-scale text-blue-600 opacity-80"></i>
+            </div>
+            <h3 class="card-title">Transparencia</h3>
+            <p class="card-description">Gestión clara y accesible para todos.</p>
+          </div>
+          <div class="flip-card-back">
+            <ul class="card-details">
+              <li><span class="text-blue-600 opacity-80">✓</span> Informes públicos regulares</li>
+              <li><span class="text-blue-600 opacity-80">✓</span> Acceso a datos abiertos</li>
+              <li><span class="text-blue-600 opacity-80">✓</span> Control ciudadano activo</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Beneficio 2 -->
+      <div class="flip-card animate-fadeInUp" style="animation-delay: 0.2s">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-icon bg-green-100 border border-green-200">
+              <i class="fas fa-shield-alt text-green-600 opacity-80"></i>
+            </div>
+            <h3 class="card-title">Control Fiscal</h3>
+            <p class="card-description">Supervisión efectiva del gasto público.</p>
+          </div>
+          <div class="flip-card-back">
+            <ul class="card-details">
+              <li><span class="text-green-600 opacity-80">✓</span> Auditorías periódicas</li>
+              <li><span class="text-green-600 opacity-80">✓</span> Prevención de irregularidades</li>
+              <li><span class="text-green-600 opacity-80">✓</span> Promoción de buenas prácticas</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Beneficio 3 -->
+      <div class="flip-card animate-fadeInUp" style="animation-delay: 0.4s">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <div class="card-icon bg-purple-100 border border-purple-200">
+              <i class="fas fa-hands-helping text-purple-600 opacity-80"></i>
+            </div>
+            <h3 class="card-title">Servicio al Ciudadano</h3>
+            <p class="card-description">Atención y apoyo constante a la comunidad.</p>
+          </div>
+          <div class="flip-card-back">
+            <ul class="card-details">
+              <li><span class="text-purple-600 opacity-80">✓</span> Canales de comunicación abiertos</li>
+              <li><span class="text-purple-600 opacity-80">✓</span> Respuesta rápida a solicitudes</li>
+              <li><span class="text-purple-600 opacity-80">✓</span> Programas de educación fiscal</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+ <section id="contacto" class="contact-section">
+  <div class="container">
+    <h2>Contacto</h2>
+    <div class="contact-grid">
+
+      <div class="info-cards-column">
+
+        <div class="contact-card">
+          <div class="icon-circle">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <h3>Teléfono</h3>
+          <p><a href="tel:+582952659813" style="color: inherit; text-decoration: none;">+58 295-2659813</a></p>
+          <a href="https://wa.me/582952659813" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+        </div>
+
+        <div class="contact-card">
+          <div class="icon-circle">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <h3>Ubicación</h3>
+          <p>Av. Constitución, La Asunción 6311</p>
+          <a href="https://maps.google.com/?q=24GQ+R3Q+Nueva+Esparta+Venezuela" target="_blank" class="btn-map" rel="noopener noreferrer">Ver en Google Maps</a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="contact-hours">
+      <p><strong>Horario de Atención:</strong> Lunes a Viernes, 8:00 AM - 3:00 PM</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="img/logo.png" alt="Logo Contraloría Estado Nueva Esparta" />
+        </div>
+        <p class="footer-text">Órgano Superior de Control Fiscal del Estado Nueva Esparta</p>
+        <nav aria-label="Enlaces de pie de página">
+          <div class="footer-links">
+            <a href="#">Aviso Legal</a>
+            <a href="#quienes-somos">Quiénes Somos</a>
+            <a href="#donde-estamos">Dónde Estamos</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#">Transparencia</a>
+            <a href="#">Normativas</a>
+            <a href="#">Informes</a>
+          </div>
+        </nav>
+        <div class="copyright">
+          &copy; 2025 Contraloría del Estado Nueva Esparta. Todos los derechos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- JS-->
+<script src="js/scroll.js" defer></script>
+<script src="js/contact-form.js" defer></script>
+
+
+</body>
+
+</html>
